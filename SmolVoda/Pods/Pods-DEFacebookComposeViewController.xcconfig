@@ -1,0 +1,1 @@
+PODS_DEFACEBOOKCOMPOSEVIEWCONTROLLER_OTHER_LDFLAGS = -framework Accounts -framework QuartzCore

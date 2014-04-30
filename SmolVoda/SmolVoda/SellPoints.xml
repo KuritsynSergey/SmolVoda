@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?> 
+<splist>
+	<sellpoint>
+		<description>ул. Губенко, 2</description>
+		<latitude>54.810827</latitude>
+		<longitude>32.043886</longitude>
+	</sellpoint>
+	<sellpoint>
+		<description>ул. Лавочкина, 54</description>
+		<latitude>54.804876</latitude>
+		<longitude>32.006899</longitude>
+	</sellpoint>
+	<sellpoint>
+		<description>ул. Толмачёва, 13/1</description>
+		<latitude>54.803828</latitude>
+		<longitude>32.042889</longitude>
+	</sellpoint>
+	<sellpoint>
+		<description>ул. Автозаводская, 25</description>
+		<latitude>54.818829</latitude>
+		<longitude>32.063998</longitude>
+	</sellpoint>
+	<sellpoint>
+		<description>ул. Генерала Городнянского, 26</description>
+		<latitude>54.81012</latitude>
+		<longitude>32.00899</longitude>
+	</sellpoint>
+	<sellpoint>
+		<description>ул. Генерала Городнянского, 2</description>
+		<latitude>54.808041</latitude>
+		<longitude>32.004326</longitude>
+	</sellpoint>
+	<sellpoint>
+		<description>ул. Щорса, 1</description>
+		<latitude>54.782813</latitude>
+		<longitude>31.807077</longitude>
+	</sellpoint>
+	<sellpoint>
+		<description>ул. Валентины Гризодубовой, 1</description>
+		<latitude>54.811801</latitude>
+		<longitude>32.025505</longitude>
+	</sellpoint>
+	<sellpoint>
+		<description>ул. Седова, 24</description>
+		<latitude>54.815621</latitude>
+		<longitude>32.12456</longitude>
+	</sellpoint>
+	<sellpoint>
+		<description>просп. Гагарина, 26</description>
+		<latitude>54.766195</latitude>
+		<longitude>32.042988</longitude>
+	</sellpoint>
+	<sellpoint>
+		<description>просп. Гагарина, 48</description>
+		<latitude>54.763604</latitude>
+		<longitude>32.04557</longitude>
+	</sellpoint>
+	<sellpoint>
+		<description>просп. Гагарина (конечная остановка)</description>
+		<latitude>54.759625</latitude>
+		<longitude>32.046114</longitude>
+	</sellpoint>
+	<sellpoint>
+		<description>ул. Пригородная, 4</description>
+		<latitude>54.766625</latitude>
+		<longitude>32.03967</longitude>
+	</sellpoint>
+	<sellpoint>
+		<description>ул. Кловская, 27</description>
+		<latitude>54.774571</latitude>
+		<longitude>32.001819</longitude>
+	</sellpoint>
+	<sellpoint>
+		<description>ул. Кловская, 1</description>
+		<latitude>54.773087</latitude>
+		<longitude>32.005327</longitude>
+	</sellpoint>
+	<sellpoint>
+		<description>ул. Николаева, 38а (Оптика)</description>
+		<latitude>54.770993</latitude>
+		<longitude>32.023034</longitude>
+	</sellpoint>
+	<sellpoint>
+		<description>ул. Николаева, 50</description>
+		<latitude>54.768256</latitude>
+		<longitude>32.014751</longitude>
+	</sellpoint>
+	<sellpoint>
+		<description>ул. Николаева, 19</description>
+		<latitude>54.773173</latitude>
+		<longitude>32.037956</longitude>
+	</sellpoint>
+	<sellpoint>
+		<description>ул. Николаева, 21а</description>
+		<latitude>54.771907</latitude>
+		<longitude>32.035316</longitude>
+	</sellpoint>
+	<sellpoint>
+		<description>ул. Черняховского, 26</description>
+		<latitude>54.764615</latitude>
+		<longitude>32.026811</longitude>
+	</sellpoint>
+	<sellpoint>
+		<description>ул. Кирова, 17</description>
+		<latitude>54.769434</latitude>
+		<longitude>32.031869</longitude>
+	</sellpoint>
+	<sellpoint>
+		<description>ул. Кирова, 29а</description>
+		<latitude>54.769755</latitude>
+		<longitude>32.040228</longitude>
+	</sellpoint>
+	<sellpoint>
+		<description>ул. Багратиона, 15</description>
+		<latitude>54.775488</latitude>
+		<longitude>32.02441</longitude>
+	</sellpoint>
+	<sellpoint>
+		<description>ул. Нормандия-Неман, 24б</description>
+		<latitude>54.778469</latitude>
+		<longitude>32.017429</longitude>
+	</sellpoint>
+	<sellpoint>
+		<description>ул. Нормандия-Неман, 23б</description>
+		<latitude>54.776098</latitude>
+		<longitude>32.013972</longitude>
+	</sellpoint>
+	<sellpoint>
+		<description>ул. Нахимова, 18</description>
+		<latitude>54.781553</latitude>
+		<longitude>32.019293</longitude>
+	</sellpoint>
+	<sellpoint>
+		<description>ул. Твардовского, 18</description>
+		<latitude>54.776972</latitude>
+		<longitude>32.06324</longitude>
+	</sellpoint>
+	<sellpoint>
+		<description>ул. Тухачевского, 8</description>
+		<latitude>54.781185</latitude>
+		<longitude>32.055089</longitude>
+	</sellpoint>
+	<sellpoint>
+		<description>ул. Октябрьской революции, 5</description>
+		<latitude>54.777669</latitude>
+		<longitude>32.044944</longitude>
+	</sellpoint>
+	<sellpoint>
+		<description>ул. Шевченко, 74/1</description>
+		<latitude>54.775345</latitude>
+		<longitude>32.076913</longitude>
+	</sellpoint>
+	<sellpoint>
+		<description>ул. Шевченко, 58</description>
+		<latitude>54.773033</latitude>
+		<longitude>32.07134</longitude>
+	</sellpoint>
+	<sellpoint>
+		<description>ул. Соколовского, 12</description>
+		<latitude>54.763073</latitude>
+		<longitude>32.081697</longitude>
+	</sellpoint>
+	<sellpoint>
+		<description>ул. 25 Сентября, 44</description>
+		<latitude>54.767619</latitude>
+		<longitude>32.081772</longitude>
+	</sellpoint>
+	<sellpoint>
+		<description>ул.25 Сентября, 18/2</description>
+		<latitude>54.766449</latitude>
+		<longitude>32.067472</longitude>
+	</sellpoint>
+	<sellpoint>
+		<description>ул. генерала Паскевича, 13</description>
+		<latitude>54.758415</latitude>
+		<longitude>32.091024</longitude>
+	</sellpoint>
+	<sellpoint>
+		<description>ул. Попова, 44</description>
+		<latitude>54.768384</latitude>
+		<longitude>32.099998</longitude>
+	</sellpoint>
+	<sellpoint>
+		<description>ул. Попова, 120</description>
+		<latitude>54.754223</latitude>
+		<longitude>32.112028</longitude>
+	</sellpoint>
+	<sellpoint>
+		<description>ул. Петра Алексеева, 16</description>
+		<latitude>54.763639</latitude>
+		<longitude>32.105192</longitude>
+	</sellpoint>
+	<sellpoint>
+		<description>ул. Рыленкова, 6а</description>
+		<latitude>54.76656</latitude>
+		<longitude>32.088992</longitude>
+	</sellpoint>
+	<sellpoint>
+		<description>ул. Рыленкова, 17</description>
+		<latitude>54.763835</latitude>
+		<longitude>32.0957</longitude>
+	</sellpoint>
+	<sellpoint>
+		<description>ул. Рыленкова, 51</description>
+		<latitude>54.759632</latitude>
+		<longitude>32.109902</longitude>
+	</sellpoint>
+	<sellpoint>
+		<description>ул. Рыленкова, 61</description>
+		<latitude>54.758012</latitude>
+		<longitude>32.104232</longitude>
+	</sellpoint>
+	<sellpoint>
+		<description>ул. Крупской, 61а</description>
+		<latitude>54.764149</latitude>
+		<longitude>32.066177</longitude>
+	</sellpoint>
+	<sellpoint>
+		<description>ул. Крупской, 32</description>
+		<latitude>54.767334</latitude>
+		<longitude>32.06128</longitude>
+	</sellpoint>
+	<sellpoint>
+		<description>ул. Марии Октябрьской, 20</description>
+		<latitude>54.763166</latitude>
+		<longitude>32.056661</longitude>
+	</sellpoint>
+	<sellpoint>
+		<description>микрорайон Южный</description>
+		<latitude>54.737186</latitude>
+		<longitude>32.089757</longitude>
+	</sellpoint>
+	<sellpoint>
+		<description>Краснинское шоссе, 6</description>
+		<latitude>54.768301</latitude>
+		<longitude>32.004503</longitude>
+	</sellpoint>
+	<sellpoint>
+		<description>ул. Марии Октябрьской, 20</description>
+		<latitude>54.763166</latitude>
+		<longitude>32.056661</longitude>
+	</sellpoint>
+	<sellpoint>
+		<description>просп. Строителей, 10</description>
+		<latitude>54.766314</latitude>
+		<longitude>32.094277</longitude>
+	</sellpoint>
+	<sellpoint>
+		<description>ул. Попова, 136</description>
+		<latitude>54.756507</latitude>
+		<longitude>32.111263</longitude>
+	</sellpoint>
+	<sellpoint>
+		<description>ул. Ударников, 36</description>
+		<latitude>54.807749</latitude>
+		<longitude>32.024207</longitude>
+	</sellpoint>
+	<sellpoint>
+		<description>ул. Матросова, 12а</description>
+		<latitude>54.766702</latitude>
+		<longitude>32.029544</longitude>
+	</sellpoint>
+</splist>
