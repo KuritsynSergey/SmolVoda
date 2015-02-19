@@ -171,7 +171,7 @@
 }
 
 - (void)loadAllOrders { //загрузка всех предыдущих заказов
-    _orders = [NSArray arrayWithContentsOfFile:[self pathToFile:kOrdersFile]];
+    _orders = [NSMutableArray arrayWithContentsOfFile:[self pathToFile:kOrdersFile]];
 }
 
 - (void)saveCurrentOrder { //добавление текущего заказа в историю
@@ -198,6 +198,12 @@
 #pragma mark - Проверка и отправка данных пользователя
 
 - (NSString*)formatPhoneNumber:(NSString *)number { //форматирование номера телефона
+    if ([number length] == 5 || [number length] == 6) {
+        NSString *thirdPart = [number substringWithRange:NSMakeRange([number length]-2, 2)];
+        NSString *secondPart = [number substringWithRange:NSMakeRange([number length]-4, 2)];
+        NSString *firstPart = [number substringToIndex:[number length]-4];
+        return [NSString stringWithFormat:@"%@-%@-%@",firstPart,secondPart,thirdPart];
+    }
     NBPhoneNumberUtil *phoneUtil = [NBPhoneNumberUtil sharedInstance];
     NSError *aError = nil;
     NBPhoneNumber *myNumber = [phoneUtil parse:number defaultRegion:@"RU" error:&aError];
@@ -360,6 +366,8 @@
     NSString *time = [_dateFormatter stringFromDate:[NSDate date]];
     NSRange range = [time rangeOfString:@":"];
     int hour = [[time substringToIndex:range.location] intValue];
+//    NSRange range2 = {range.length, 2};
+//    int munute = [[time substringWithRange:range2] intValue];
     [_dateFormatter setDateStyle:NSDateFormatterLongStyle];
     [_dateFormatter setTimeStyle:NSDateFormatterNoStyle];
     return hour;

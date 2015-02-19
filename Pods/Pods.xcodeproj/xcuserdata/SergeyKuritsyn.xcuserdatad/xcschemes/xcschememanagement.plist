@@ -4,42 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-AFNetworking.xcscheme</key>
+		<key>Pods-VK-ios-sdk.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-AFXAuthClient.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-DEFacebookComposeViewController.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-Facebook-iOS-SDK.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-PocketAPI.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-REActivityViewController.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-REComposeViewController.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-SFHFKeychainUtils.xcscheme</key>
+		<key>Pods-mailcore2-ios.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -52,47 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>166F68E72FB541E8B971320D</key>
+		<key>6F50449B36207286BD859A0C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>19594438EABB4B5FAEE0F5BC</key>
+		<key>83312D1372EDA2A5C49A21AD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5A4AD11E63DF4B4BAD7624B0</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>8ED63E31AC704D2FB55E2961</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>998D8E66ACA54DDCB8E60295</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>B22F2175BBC44C779A5D8BA2</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>B23254BF43AB47C4A4B08BCD</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>E413265475624D0187484020</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>E929FFCEDFA244448A2211C6</key>
+		<key>ACD1EE965BCDCEFDF8F4F900</key>
 		<dict>
 			<key>primary</key>
 			<true/>

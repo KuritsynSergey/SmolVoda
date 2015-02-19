@@ -1,3 +1,4 @@
-platform :ios, '6.0'
-pod 'REActivityViewController', '~> 1.6.7'
-pod 'MailCore2', '~> 0.3'
+platform :ios, '7.0'
+
+pod 'mailcore2-ios'
+pod 'VK-ios-sdk'

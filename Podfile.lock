@@ -1,33 +1,13 @@
 PODS:
-  - AFNetworking (1.3.3)
-  - AFXAuthClient (1.0.8):
-    - AFNetworking (~> 1.3)
-  - DEFacebookComposeViewController (1.0.0):
-    - Facebook-iOS-SDK (~> 3.1)
-  - Facebook-iOS-SDK (3.12.0)
-  - PocketAPI (1.0.2)
-  - REActivityViewController (1.6.7):
-    - AFNetworking (~> 1.3)
-    - AFXAuthClient (~> 1.0.8)
-    - DEFacebookComposeViewController (~> 1.0.0)
-    - Facebook-iOS-SDK (>= 3.5)
-    - PocketAPI (~> 1.0.2)
-    - REComposeViewController (~> 2.1.2)
-    - SFHFKeychainUtils (~> 0.0.1)
-  - REComposeViewController (2.1.2)
-  - SFHFKeychainUtils (0.0.1)
+  - mailcore2-ios (0.5.0)
+  - VK-ios-sdk (1.0.9.3)
 
 DEPENDENCIES:
-  - REActivityViewController (~> 1.6.7)
+  - mailcore2-ios
+  - VK-ios-sdk
 
 SPEC CHECKSUMS:
-  AFNetworking: 61fdd49e2ffe6380378df37b3b6e70630bb9dd66
-  AFXAuthClient: 29dfca79bac4d8b1e83a1eeb126b231e03c64fa1
-  DEFacebookComposeViewController: b26811d6775594df2a386406655c9f2828f041cc
-  Facebook-iOS-SDK: c09f7d80db5c48170ff834bc03ebe774c49d1f5b
-  PocketAPI: 2ed51391e6ea7a48c707528f782f5a2cb0eab80e
-  REActivityViewController: f316ad5efd3d0b6119f21303dacb20e5dc4e1112
-  REComposeViewController: 6f1ab35ff54d6bfb65374b3f492e414e1ec1a0db
-  SFHFKeychainUtils: e828dbd9eaa509486acf95d8de2ebd414c4b7451
+  mailcore2-ios: 87e8128b6f12026688c965d5632f4c864ce99e70
+  VK-ios-sdk: 9e15e985926988c9eeb6a3eb9cdd6e03e2520e88
 
-COCOAPODS: 0.29.0
+COCOAPODS: 0.35.0

@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		40CB8DBECE01436D8434877A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF94273C93B24AAD89931935 /* libPods.a */; };
 		4903A82918B698A200DACFBE /* 150.png in Resources */ = {isa = PBXBuildFile; fileRef = 4903A82818B698A200DACFBE /* 150.png */; };
-		49161982191026290062DCA1 /* libMailCore-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4916197B191024E00062DCA1 /* libMailCore-ios.a */; };
 		491A74CE18C2573600DBC185 /* MainBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 491A74CC18C2573600DBC185 /* MainBackground.png */; };
 		491A74CF18C2573600DBC185 /* MainBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 491A74CD18C2573600DBC185 /* MainBackground@2x.png */; };
 		491A74D118C2574100DBC185 /* MainBackground-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 491A74D018C2574100DBC185 /* MainBackground-568h@2x.png */; };
@@ -49,12 +48,12 @@
 		4962ADF3187C89C900393C85 /* SmolVodaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4962ADF2187C89C900393C85 /* SmolVodaTests.m */; };
 		4962AE01187C912A00393C85 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4962AE00187C912A00393C85 /* LoginViewController.m */; };
 		4962AE0A187CBAEB00393C85 /* LabelBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4962AE09187CBAEB00393C85 /* LabelBackground@2x.png */; };
-		4962B9CC18B3697E00F7664B /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4962B9CB18B3697E00F7664B /* GoogleMaps.framework */; };
-		4962B9CE18B3699300F7664B /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4962B9CD18B3699300F7664B /* GoogleMaps.bundle */; };
 		4962B9D018B54CFA00F7664B /* OrderBackground-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4962B9CF18B54CFA00F7664B /* OrderBackground-568h@2x.png */; };
 		4962B9E818B67BFD00F7664B /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4962B9E718B67BFD00F7664B /* Twitter.framework */; };
 		4962B9EA18B67C0800F7664B /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4962B9E918B67C0800F7664B /* AssetsLibrary.framework */; };
 		4962B9EC18B67C1000F7664B /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4962B9EB18B67C1000F7664B /* MessageUI.framework */; };
+		497325C719DD988F00028DF7 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 497325C619DD988F00028DF7 /* GoogleMaps.framework */; };
+		497325C919DD989E00028DF7 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 497325C819DD989E00028DF7 /* GoogleMaps.bundle */; };
 		497863D1187DE4B6000BF8A8 /* MainLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 497863B1187DE4B5000BF8A8 /* MainLogic.m */; };
 		497863DE187DE4B6000BF8A8 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 497863CA187DE4B6000BF8A8 /* Reachability.m */; };
 		497863E0187DE4B6000BF8A8 /* UIImage+h568.m in Sources */ = {isa = PBXBuildFile; fileRef = 497863CE187DE4B6000BF8A8 /* UIImage+h568.m */; };
@@ -174,48 +173,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		49161978191024E00062DCA1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49161970191024E00062DCA1 /* mailcore2.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C64EA537169E772200778456;
-			remoteInfo = "static mailcore2 osx";
-		};
-		4916197A191024E00062DCA1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49161970191024E00062DCA1 /* mailcore2.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C6BA2C191705F4E6003F0E9E;
-			remoteInfo = "static mailcore2 ios";
-		};
-		4916197C191024E00062DCA1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49161970191024E00062DCA1 /* mailcore2.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C64EA78C169F259200778456;
-			remoteInfo = tests;
-		};
-		4916197E191024E00062DCA1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49161970191024E00062DCA1 /* mailcore2.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C6A81B911706840C00882C15;
-			remoteInfo = "test-ios";
-		};
-		49161980191024E00062DCA1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49161970191024E00062DCA1 /* mailcore2.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C6BD288D170BD71100A91AC1;
-			remoteInfo = "mailcore osx";
-		};
-		49161983191026490062DCA1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49161970191024E00062DCA1 /* mailcore2.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = C6BA2B091705F4E6003F0E9E;
-			remoteInfo = "static mailcore2 ios";
-		};
 		4962ADEA187C89C900393C85 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4962ADBC187C89C900393C85 /* Project object */;
@@ -226,8 +183,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3575683E39BCADC8586B3878 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		4903A82818B698A200DACFBE /* 150.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 150.png; sourceTree = "<group>"; };
-		49161970191024E00062DCA1 /* mailcore2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = mailcore2.xcodeproj; path = "mailcore2/build-mac/mailcore2.xcodeproj"; sourceTree = SOURCE_ROOT; };
 		491A74CC18C2573600DBC185 /* MainBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MainBackground.png; sourceTree = "<group>"; };
 		491A74CD18C2573600DBC185 /* MainBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MainBackground@2x.png"; sourceTree = "<group>"; };
 		491A74D018C2574100DBC185 /* MainBackground-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MainBackground-568h@2x.png"; sourceTree = "<group>"; };
@@ -279,12 +236,12 @@
 		4962ADFF187C912A00393C85 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		4962AE00187C912A00393C85 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		4962AE09187CBAEB00393C85 /* LabelBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LabelBackground@2x.png"; sourceTree = "<group>"; };
-		4962B9CB18B3697E00F7664B /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
-		4962B9CD18B3699300F7664B /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
 		4962B9CF18B54CFA00F7664B /* OrderBackground-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "OrderBackground-568h@2x.png"; sourceTree = "<group>"; };
 		4962B9E718B67BFD00F7664B /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 		4962B9E918B67C0800F7664B /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		4962B9EB18B67C1000F7664B /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		497325C619DD988F00028DF7 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		497325C819DD989E00028DF7 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
 		497863AF187DE4B5000BF8A8 /* Keys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Keys.h; sourceTree = "<group>"; };
 		497863B0187DE4B5000BF8A8 /* MainLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainLogic.h; sourceTree = "<group>"; };
 		497863B1187DE4B5000BF8A8 /* MainLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainLogic.m; sourceTree = "<group>"; };
@@ -426,7 +383,7 @@
 		49F7792C18A2C62E0067500B /* RepeatOrderButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RepeatOrderButton@2x.png"; sourceTree = "<group>"; };
 		49F7793718A400D30067500B /* OrderTitles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OrderTitles.png; sourceTree = "<group>"; };
 		49F7793818A400D30067500B /* OrderTitles@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "OrderTitles@2x.png"; sourceTree = "<group>"; };
-		D262AA4E7C4145A3B083A90E /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		D4E4B1467F8A7C56B643B258 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		EF94273C93B24AAD89931935 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -435,7 +392,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49161982191026290062DCA1 /* libMailCore-ios.a in Frameworks */,
 				4962B9EC18B67C1000F7664B /* MessageUI.framework in Frameworks */,
 				4962B9EA18B67C0800F7664B /* AssetsLibrary.framework in Frameworks */,
 				4962B9E818B67BFD00F7664B /* Twitter.framework in Frameworks */,
@@ -456,8 +412,8 @@
 				4958BE411886B3970052B136 /* libxml2.dylib in Frameworks */,
 				4958BE251885E0D20052B136 /* QuartzCore.framework in Frameworks */,
 				49B64AAF18809F0300CC3B9A /* Security.framework in Frameworks */,
-				4962B9CC18B3697E00F7664B /* GoogleMaps.framework in Frameworks */,
 				4962ADCA187C89C900393C85 /* CoreGraphics.framework in Frameworks */,
+				497325C719DD988F00028DF7 /* GoogleMaps.framework in Frameworks */,
 				4962ADCC187C89C900393C85 /* UIKit.framework in Frameworks */,
 				4962ADC8187C89C900393C85 /* Foundation.framework in Frameworks */,
 				40CB8DBECE01436D8434877A /* libPods.a in Frameworks */,
@@ -477,18 +433,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		49161971191024E00062DCA1 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				49161979191024E00062DCA1 /* libMailCore.a */,
-				4916197B191024E00062DCA1 /* libMailCore-ios.a */,
-				4916197D191024E00062DCA1 /* tests */,
-				4916197F191024E00062DCA1 /* test-ios.app */,
-				49161981191024E00062DCA1 /* MailCore.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		491A74D218C2830C00DBC185 /* MBProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
@@ -496,14 +440,6 @@
 				491A74D418C2831E00DBC185 /* MBProgressHUD.m */,
 			);
 			name = MBProgressHUD;
-			sourceTree = "<group>";
-		};
-		4932321918A8284A006E6258 /* MailCore */ = {
-			isa = PBXGroup;
-			children = (
-				49161970191024E00062DCA1 /* mailcore2.xcodeproj */,
-			);
-			name = MailCore;
 			sourceTree = "<group>";
 		};
 		4958BE2C1885E5B90052B136 /* My Libraries */ = {
@@ -561,7 +497,7 @@
 				4962ADEC187C89C900393C85 /* SmolVodaTests */,
 				4962ADC6187C89C900393C85 /* Frameworks */,
 				4962ADC5187C89C900393C85 /* Products */,
-				D262AA4E7C4145A3B083A90E /* Pods.xcconfig */,
+				70F2F1BBAA1970491E4D6B34 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -577,11 +513,11 @@
 		4962ADC6187C89C900393C85 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				497325C819DD989E00028DF7 /* GoogleMaps.bundle */,
+				497325C619DD988F00028DF7 /* GoogleMaps.framework */,
 				4962B9EB18B67C1000F7664B /* MessageUI.framework */,
 				4962B9E918B67C0800F7664B /* AssetsLibrary.framework */,
 				4962B9E718B67BFD00F7664B /* Twitter.framework */,
-				4962B9CD18B3699300F7664B /* GoogleMaps.bundle */,
-				4962B9CB18B3697E00F7664B /* GoogleMaps.framework */,
 				4932320C18A56F64006E6258 /* CFNetwork.framework */,
 				49A0A0F6189FEA13008F49D4 /* SDWebImage.framework */,
 				49AB1605189076CD00D118F4 /* libc++.dylib */,
@@ -734,7 +670,6 @@
 			isa = PBXGroup;
 			children = (
 				491A74D218C2830C00DBC185 /* MBProgressHUD */,
-				4932321918A8284A006E6258 /* MailCore */,
 				4958BE391886B2690052B136 /* HTMLParser */,
 				4958BE2D1885F2910052B136 /* Modal Segue */,
 				497863E1187DE4D9000BF8A8 /* Phone Fomatting */,
@@ -865,6 +800,15 @@
 			name = backgrounds;
 			sourceTree = "<group>";
 		};
+		70F2F1BBAA1970491E4D6B34 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3575683E39BCADC8586B3878 /* Pods.debug.xcconfig */,
+				D4E4B1467F8A7C56B643B258 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -881,7 +825,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				49161984191026490062DCA1 /* PBXTargetDependency */,
 			);
 			name = SmolVoda;
 			productName = SmolVoda;
@@ -912,7 +855,7 @@
 		4962ADBC187C89C900393C85 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Sergey Kuritsyn";
 				TargetAttributes = {
 					4962ADC3187C89C900393C85 = {
@@ -934,12 +877,6 @@
 			mainGroup = 4962ADBB187C89C900393C85;
 			productRefGroup = 4962ADC5187C89C900393C85 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 49161971191024E00062DCA1 /* Products */;
-					ProjectRef = 49161970191024E00062DCA1 /* mailcore2.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				4962ADC3187C89C900393C85 /* SmolVoda */,
@@ -947,44 +884,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		49161979191024E00062DCA1 /* libMailCore.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libMailCore.a;
-			remoteRef = 49161978191024E00062DCA1 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		4916197B191024E00062DCA1 /* libMailCore-ios.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libMailCore-ios.a";
-			remoteRef = 4916197A191024E00062DCA1 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		4916197D191024E00062DCA1 /* tests */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = tests;
-			remoteRef = 4916197C191024E00062DCA1 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		4916197F191024E00062DCA1 /* test-ios.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = "test-ios.app";
-			remoteRef = 4916197E191024E00062DCA1 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		49161981191024E00062DCA1 /* MailCore.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = MailCore.framework;
-			remoteRef = 49161980191024E00062DCA1 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		4962ADC2187C89C900393C85 /* Resources */ = {
@@ -1050,6 +949,7 @@
 				49786403187DE9AD000BF8A8 /* NBPhoneNumberMetadataForTesting.plist in Resources */,
 				49AB15F318906EC400D118F4 /* MapsBackground.png in Resources */,
 				49A0A14518A19E6F008F49D4 /* SmallMinusButton@2x.png in Resources */,
+				497325C919DD989E00028DF7 /* GoogleMaps.bundle in Resources */,
 				4932320818A4E07E006E6258 /* LaunchImage-568h@2x.png in Resources */,
 				49AB15BA188B1E1700D118F4 /* LabelBackground.png in Resources */,
 				49B1CBAF1891A60D00C8DF8B /* SellPoints.xml in Resources */,
@@ -1076,7 +976,6 @@
 				49A0A0F4189F9083008F49D4 /* Coolers.xml in Resources */,
 				49F7791E18A2AF040067500B /* ConfirmBackground@2x.png in Resources */,
 				4958BE50188722E50052B136 /* Price.xml in Resources */,
-				4962B9CE18B3699300F7664B /* GoogleMaps.bundle in Resources */,
 				49A0A13B18A19E6F008F49D4 /* BigPlusButton@2x.png in Resources */,
 				4962ADD2187C89C900393C85 /* InfoPlist.strings in Resources */,
 				49A0A14618A19E6F008F49D4 /* SmallPlusButton.png in Resources */,
@@ -1117,7 +1016,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		ED7E365F8BFE445BA842B255 /* Check Pods Manifest.lock */ = {
@@ -1189,11 +1088,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		49161984191026490062DCA1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "static mailcore2 ios";
-			targetProxy = 49161983191026490062DCA1 /* PBXContainerItemProxy */;
-		};
 		4962ADEB187C89C900393C85 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 4962ADC3187C89C900393C85 /* SmolVoda */;
@@ -1303,16 +1197,17 @@
 		};
 		4962ADF7187C89C900393C85 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D262AA4E7C4145A3B083A90E /* Pods.xcconfig */;
+			baseConfigurationReference = 3575683E39BCADC8586B3878 /* Pods.debug.xcconfig */;
 			buildSettings = {
+				ARCHS = armv7;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_CXX_LIBRARY = "libc++";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/SergeyKuritsyn/Desktop/Projects/\\!My\\ Apps/SmolVoda/release\\ 1\\.0/SmolVoda/**",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SmolVoda/SmolVoda-Prefix.pch";
@@ -1322,41 +1217,33 @@
 					/usr/include/libxml2,
 				);
 				INFOPLIST_FILE = "SmolVoda/SmolVoda-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
-					"-lctemplate-ios",
-					"-letpan-ios",
-					"-licudata",
-					"-licui18n",
-					"-licuuc",
 					"-lxml2",
-					"-lsasl2",
-					"-liconv",
-					"-ltidy",
-					"-lz",
-					"-lstdc++",
-					"-stdlib=libstdc++",
+					"-stdlib=libc++",
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		4962ADF8187C89C900393C85 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D262AA4E7C4145A3B083A90E /* Pods.xcconfig */;
+			baseConfigurationReference = D4E4B1467F8A7C56B643B258 /* Pods.release.xcconfig */;
 			buildSettings = {
+				ARCHS = armv7;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_CXX_LIBRARY = "libc++";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/SergeyKuritsyn/Desktop/Projects/\\!My\\ Apps/SmolVoda/release\\ 1\\.0/SmolVoda/**",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SmolVoda/SmolVoda-Prefix.pch";
@@ -1366,25 +1253,16 @@
 					/usr/include/libxml2,
 				);
 				INFOPLIST_FILE = "SmolVoda/SmolVoda-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
-					"-lctemplate-ios",
-					"-letpan-ios",
-					"-licudata",
-					"-licui18n",
-					"-licuuc",
 					"-lxml2",
-					"-lsasl2",
-					"-liconv",
-					"-ltidy",
-					"-lz",
-					"-lstdc++",
-					"-stdlib=libstdc++",
+					"-stdlib=libc++",
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

@@ -1,5 +1,0 @@
-#include "Pods-PocketAPI.xcconfig"
-GCC_PREPROCESSOR_DEFINITIONS = COCOAPODS=1
-HEADER_SEARCH_PATHS = "${PODS_ROOT}/BuildHeaders" "${PODS_ROOT}/BuildHeaders/PocketAPI" "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/AFNetworking" "${PODS_ROOT}/Headers/AFXAuthClient" "${PODS_ROOT}/Headers/DEFacebookComposeViewController" "${PODS_ROOT}/Headers/Facebook-iOS-SDK" "${PODS_ROOT}/Headers/Facebook-iOS-SDK/FacebookSDK" "${PODS_ROOT}/Headers/PocketAPI" "${PODS_ROOT}/Headers/REActivityViewController" "${PODS_ROOT}/Headers/REComposeViewController" "${PODS_ROOT}/Headers/SFHFKeychainUtils"
-OTHER_LDFLAGS = -ObjC ${PODS_POCKETAPI_OTHER_LDFLAGS}
-PODS_ROOT = ${SRCROOT}

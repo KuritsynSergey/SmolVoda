@@ -74,7 +74,7 @@
     _datePicker.locale = [NSLocale currentLocale];
     _datePicker.datePickerMode = UIDatePickerModeDate;
     _datePicker.backgroundColor = [UIColor colorWithWhite:1.0 alpha:1.0];
-    _datePicker.minimumDate = [NSDate date];
+    _datePicker.minimumDate = [NSDate dateWithTimeIntervalSinceNow:1*24*60*60];
     _datePicker.maximumDate = [NSDate dateWithTimeIntervalSinceNow:kDaysForOrder*24*60*60];
     [_datePicker addTarget:self action:@selector(datePickerDidScroll) forControlEvents:UIControlEventValueChanged];
     
@@ -280,7 +280,7 @@
         int currentHour = [model currentHour];
         if (weekday == 7 || weekday == 1 || (weekday == 6 && currentHour >=17))
             message = @"По указанному номеру телефона c Вами свяжется оператор.\nОбратите внимание: заказ будет обработан в понедельник в 9:00";
-        else if (currentHour < 9 || currentHour >=18)
+        else if (currentHour < 9 || currentHour >=17)
             message = @"По указанному номеру телефона c Вами свяжется оператор.\nЗаказ будет обработан в 9:00";
         else
             message = @"В ближайшее время по указанному номеру телефона с Вами свяжется оператор";

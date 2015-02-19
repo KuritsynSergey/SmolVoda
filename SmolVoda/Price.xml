@@ -3,42 +3,42 @@
     <listitem>
         <minquantity>1</minquantity>
         <maxquantity>1</maxquantity>
-        <price>120</price>
+        <price>130</price>
     </listitem>
     <listitem>
         <minquantity>2</minquantity>
         <maxquantity>2</maxquantity>
-        <price>110</price>
+        <price>120</price>
     </listitem>
     <listitem>
         <minquantity>3</minquantity>
         <maxquantity>5</maxquantity>
-        <price>100</price>
+        <price>110</price>
     </listitem>
     <listitem>
         <minquantity>6</minquantity>
         <maxquantity>10</maxquantity>
-        <price>90</price>
+        <price>100</price>
     </listitem>
     <listitem>
         <minquantity>11</minquantity>
         <maxquantity>20</maxquantity>
-        <price>85</price>
+        <price>90</price>
     </listitem>
     <listitem>
         <minquantity>21</minquantity>
         <maxquantity>40</maxquantity>
-        <price>80</price>
+        <price>85</price>
     </listitem>
     <listitem>
         <minquantity>41</minquantity>
         <maxquantity>60</maxquantity>
-        <price>75</price>
+        <price>80</price>
     </listitem>
     <listitem>
         <minquantity>61</minquantity>
         <maxquantity>80</maxquantity>
-        <price>70</price>
+        <price>75</price>
     </listitem>
-    <tareprice>200</tareprice>
+    <tareprice>250</tareprice>
 </pricelist>

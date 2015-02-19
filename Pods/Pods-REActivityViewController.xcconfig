@@ -1,1 +1,0 @@
-PODS_REACTIVITYVIEWCONTROLLER_OTHER_LDFLAGS = -framework AssetsLibrary -framework MessageUI -framework QuartzCore -framework Twitter -weak_framework Social

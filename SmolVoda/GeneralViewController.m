@@ -8,14 +8,12 @@
 
 #import "GeneralViewController.h"
 #import "MapViewController.h"
-#import "REActivityViewController.h"
+#import "VKsdk.h"
 
 @interface GeneralViewController ()
 
 @property (nonatomic, strong) NSString *message;
 @property (nonatomic, strong) NSURL *smolvodaLink;
-
-@property (nonatomic, strong) REActivityViewController *activityViewController;
 
 @end
 
@@ -34,8 +32,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-    _message = @"Я заказываю доставку артезианской воды со своего iPhone!";
-    _smolvodaLink = [NSURL URLWithString:@"http://www.smolvoda.ru"];
+    
 
     CGRect frameBtn;
     
@@ -100,7 +97,7 @@
     [self.view addSubview:_shareButton];
     
     //prepare activities
-    
+    /*
     REFacebookActivity *facebookActivity = [[REFacebookActivity alloc] init];
     RETwitterActivity *twitterActivity = [[RETwitterActivity alloc] init];
     REVKActivity *vkActivity = [[REVKActivity alloc] initWithClientId:@"4236551"];
@@ -109,18 +106,16 @@
     RECopyActivity *copyActivity = [[RECopyActivity alloc] init];
     vkActivity.userInfo =@{@"url": _smolvodaLink,
                            @"text": _message,
-                           @"image": [UIImage imageNamed:@"150.png"]};
+                           @"image": [UIImage imageNamed:@"150.png"]};*/
 
     // Compile activities into an array, we will pass that array to
     // REActivityViewController on the next step
     //
-    NSArray *activities = @[facebookActivity, twitterActivity, vkActivity,
-                            messageActivity, mailActivity, copyActivity];
+    //NSArray *activities = @[facebookActivity, twitterActivity, vkActivity,
+//                            messageActivity, mailActivity, copyActivity];
     // Create REActivityViewController controller and assign data source
     //
-    _activityViewController = [[REActivityViewController alloc] initWithViewController:self activities:activities];
-    _activityViewController.userInfo = @{@"url": _smolvodaLink,
-                                         @"text": _message};
+    
     
 }
 
@@ -196,7 +191,13 @@
 #pragma mark - Публикации в социальные сети
 
 - (void)share:(id)sender {
-    [_activityViewController presentFromViewController:self];
+    //[_activityViewController presentFromViewController:self];
+    _message = @"Я заказываю доставку артезианской воды со своего iPhone!";
+    _smolvodaLink = [NSURL URLWithString:@"http://www.smolvoda.ru"];
+    NSArray *items = @[[UIImage imageNamed:@"150.png"], _message , _smolvodaLink];
+    UIActivityViewController *activityViewController = [[UIActivityViewController alloc] initWithActivityItems:items applicationActivities:@[[VKActivity new]]];
+    [self presentViewController:activityViewController animated:YES completion:^{
+    }];
 }
 
 

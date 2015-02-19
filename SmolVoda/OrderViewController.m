@@ -88,9 +88,10 @@
 
 - (IBAction)minusBottle:(UIButton *)sender { //минус бутыль
     bottlesQuantity--;
-    if (tareQuantity > 0) {
+    if (tareQuantity > 0)
         tareQuantity--;
-    }
+    if (tareQuantity==0)
+        _minusTareButton.enabled = NO;
     if (bottlesQuantity == 1)
         _minusBottleButton.enabled = NO;
     [self updateLabels];

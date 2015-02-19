@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import <GoogleMaps/GoogleMaps.h>
+#import "VKsdk.h"
 
 @implementation AppDelegate
 
@@ -15,6 +16,7 @@
 {
     // Override point for customization after application launch.
     [GMSServices provideAPIKey:@"AIzaSyAIh1vMJH9rmCuKYXFFy1paNztCw0d_QM0"];
+    [VKSdk initializeWithDelegate:nil andAppId:@"4236551"];
     return YES;
 }
 							
@@ -43,6 +45,12 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
+{
+    [VKSdk processOpenURL:url fromApplication:sourceApplication];
+    return YES;
 }
 
 @end

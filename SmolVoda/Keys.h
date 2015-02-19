@@ -20,7 +20,7 @@
 #define kUsersKey           @"Users"
 #define kLastUserID         @"Last User ID"
 
-#define kRegistratorMail    @"smolvoda@mail.ru"
+#define kRegistratorMail    @"punKiller667@mail.ru"
 
 #define kBottlesKey         @"Bottles"
 #define kReturnKey          @"Return"
@@ -54,7 +54,7 @@
 #define kCoolerCostKey      @"CoolerCost"
 
 #define kDaysForOrder       5
-#define kBottlePrice        200
+#define kBottlePrice        250
 
 
 #endif
