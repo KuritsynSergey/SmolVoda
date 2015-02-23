@@ -43,7 +43,12 @@
     
     _backgroundImageView.image = [UIImage imageNamed:@"ConfirmBackground.png"];
     _centralScrollView.contentSize = _centralScrollView.frame.size;
-    
+    _centralScrollView.backgroundColor = [UIColor redColor];
+    if ([UIScreen mainScreen].bounds.size.height > 480) {
+        CGRect frame = _centralScrollView.frame;
+        frame.size.height += 70;
+        _centralScrollView.frame = frame;
+    }
     NSDictionary *order = [[MainLogic shared] currentOrder];
     int quantity = [[order objectForKey:kBottlesKey] intValue];
     int price = [[order objectForKey:kPriceKey] intValue];

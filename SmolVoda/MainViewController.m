@@ -55,15 +55,11 @@ static int scrollViewPageWidth = 287;
                                                   otherButtonTitles: nil];
         [alertView show];
         alertView = nil;
-        self.vkButton.enabled = NO;
-        self.twitterButton.enabled = NO;
-        self.facebookButton.enabled = NO;
+        self.shareButton.enabled = NO;
         self.webButton.enabled = NO;
         _orderButton.enabled = NO;
     } else {
-        self.vkButton.enabled = YES;
-        self.twitterButton.enabled = YES;
-        self.facebookButton.enabled = YES;
+        self.shareButton.enabled = YES;
         self.webButton.enabled = YES;
         _orderButton.enabled = YES;
     }
