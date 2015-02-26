@@ -20,7 +20,7 @@
 #define kUsersKey           @"Users"
 #define kLastUserID         @"Last User ID"
 
-#define kRegistratorMail    @"punKiller667@mail.ru"
+#define kRegistratorMail    @"smolvoda@mail.ru"
 
 #define kBottlesKey         @"Bottles"
 #define kReturnKey          @"Return"

@@ -1,13 +1,16 @@
 PODS:
+  - BSKeyboardControls (2.2)
   - mailcore2-ios (0.5.0)
-  - VK-ios-sdk (1.0.9.3)
+  - VK-ios-sdk (1.1.0)
 
 DEPENDENCIES:
+  - BSKeyboardControls (~> 2.2)
   - mailcore2-ios
   - VK-ios-sdk
 
 SPEC CHECKSUMS:
+  BSKeyboardControls: c9aa1bdbb5ecd454aa3d0b2279f79c5dc4b6c6ad
   mailcore2-ios: 87e8128b6f12026688c965d5632f4c864ce99e70
-  VK-ios-sdk: 9e15e985926988c9eeb6a3eb9cdd6e03e2520e88
+  VK-ios-sdk: 4f687973bebd46a1dd81f447b180f40042107d4f
 
 COCOAPODS: 0.35.0

@@ -8,8 +8,9 @@
 
 #import "GeneralViewController.h"
 #import "MBProgressHUD.h"
+#import "BSKeyboardControls.h"
 
-@interface ConfirmViewController : GeneralViewController <UITextFieldDelegate, UIPickerViewDataSource, UIPickerViewDelegate, UIAlertViewDelegate, MBProgressHUDDelegate>
+@interface ConfirmViewController : GeneralViewController <UITextFieldDelegate, UIPickerViewDataSource, UIPickerViewDelegate, UIAlertViewDelegate, MBProgressHUDDelegate, BSKeyboardControlsDelegate>
 
 @property (weak, nonatomic) IBOutlet CustomTextField *streetTextField;
 @property (weak, nonatomic) IBOutlet CustomTextField *porchTextField;

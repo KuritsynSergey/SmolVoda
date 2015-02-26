@@ -52,7 +52,6 @@
 		4962B9E818B67BFD00F7664B /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4962B9E718B67BFD00F7664B /* Twitter.framework */; };
 		4962B9EA18B67C0800F7664B /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4962B9E918B67C0800F7664B /* AssetsLibrary.framework */; };
 		4962B9EC18B67C1000F7664B /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4962B9EB18B67C1000F7664B /* MessageUI.framework */; };
-		497325C719DD988F00028DF7 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 497325C619DD988F00028DF7 /* GoogleMaps.framework */; };
 		497325C919DD989E00028DF7 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 497325C819DD989E00028DF7 /* GoogleMaps.bundle */; };
 		497863D1187DE4B6000BF8A8 /* MainLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 497863B1187DE4B5000BF8A8 /* MainLogic.m */; };
 		497863DE187DE4B6000BF8A8 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 497863CA187DE4B6000BF8A8 /* Reachability.m */; };
@@ -158,6 +157,7 @@
 		49B64AB61880B27E00CC3B9A /* Franklin Gothic Medium Cond.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49B64AB51880B27E00CC3B9A /* Franklin Gothic Medium Cond.ttf */; };
 		49B64ABD1881D1C400CC3B9A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B64ABC1881D1C400CC3B9A /* MainViewController.m */; };
 		49B64AC61881D8C900CC3B9A /* OrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B64AC51881D8C900CC3B9A /* OrderViewController.m */; };
+		49F1B5B91A9E84560046E033 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F1B5B81A9E84560046E033 /* GoogleMaps.framework */; };
 		49F7791D18A2AF040067500B /* ConfirmBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 49F7791B18A2AF040067500B /* ConfirmBackground.png */; };
 		49F7791E18A2AF040067500B /* ConfirmBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49F7791C18A2AF040067500B /* ConfirmBackground@2x.png */; };
 		49F7792118A2AF460067500B /* CheckoutButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 49F7791F18A2AF460067500B /* CheckoutButton.png */; };
@@ -240,7 +240,6 @@
 		4962B9E718B67BFD00F7664B /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 		4962B9E918B67C0800F7664B /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		4962B9EB18B67C1000F7664B /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
-		497325C619DD988F00028DF7 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
 		497325C819DD989E00028DF7 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
 		497863AF187DE4B5000BF8A8 /* Keys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Keys.h; sourceTree = "<group>"; };
 		497863B0187DE4B5000BF8A8 /* MainLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainLogic.h; sourceTree = "<group>"; };
@@ -371,6 +370,7 @@
 		49B64ABC1881D1C400CC3B9A /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		49B64AC41881D8C900CC3B9A /* OrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderViewController.h; sourceTree = "<group>"; };
 		49B64AC51881D8C900CC3B9A /* OrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderViewController.m; sourceTree = "<group>"; };
+		49F1B5B81A9E84560046E033 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
 		49F7791B18A2AF040067500B /* ConfirmBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ConfirmBackground.png; sourceTree = "<group>"; };
 		49F7791C18A2AF040067500B /* ConfirmBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ConfirmBackground@2x.png"; sourceTree = "<group>"; };
 		49F7791F18A2AF460067500B /* CheckoutButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CheckoutButton.png; sourceTree = "<group>"; };
@@ -395,6 +395,7 @@
 				4962B9EC18B67C1000F7664B /* MessageUI.framework in Frameworks */,
 				4962B9EA18B67C0800F7664B /* AssetsLibrary.framework in Frameworks */,
 				4962B9E818B67BFD00F7664B /* Twitter.framework in Frameworks */,
+				49F1B5B91A9E84560046E033 /* GoogleMaps.framework in Frameworks */,
 				4932322F18A828FB006E6258 /* CFNetwork.framework in Frameworks */,
 				49A0A0F7189FEA13008F49D4 /* SDWebImage.framework in Frameworks */,
 				49AB160A189076CE00D118F4 /* libc++.dylib in Frameworks */,
@@ -413,7 +414,6 @@
 				4958BE251885E0D20052B136 /* QuartzCore.framework in Frameworks */,
 				49B64AAF18809F0300CC3B9A /* Security.framework in Frameworks */,
 				4962ADCA187C89C900393C85 /* CoreGraphics.framework in Frameworks */,
-				497325C719DD988F00028DF7 /* GoogleMaps.framework in Frameworks */,
 				4962ADCC187C89C900393C85 /* UIKit.framework in Frameworks */,
 				4962ADC8187C89C900393C85 /* Foundation.framework in Frameworks */,
 				40CB8DBECE01436D8434877A /* libPods.a in Frameworks */,
@@ -513,8 +513,8 @@
 		4962ADC6187C89C900393C85 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				49F1B5B81A9E84560046E033 /* GoogleMaps.framework */,
 				497325C819DD989E00028DF7 /* GoogleMaps.bundle */,
-				497325C619DD988F00028DF7 /* GoogleMaps.framework */,
 				4962B9EB18B67C1000F7664B /* MessageUI.framework */,
 				4962B9E918B67C0800F7664B /* AssetsLibrary.framework */,
 				4962B9E718B67BFD00F7664B /* Twitter.framework */,

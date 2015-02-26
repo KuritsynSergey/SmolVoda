@@ -196,6 +196,14 @@
     _smolvodaLink = [NSURL URLWithString:@"http://www.smolvoda.ru"];
     NSArray *items = @[[UIImage imageNamed:@"150.png"], _message , _smolvodaLink];
     UIActivityViewController *activityViewController = [[UIActivityViewController alloc] initWithActivityItems:items applicationActivities:@[[VKActivity new]]];
+    NSArray *excludeActivities = @[UIActivityTypeAirDrop,
+                                   UIActivityTypePrint,
+                                   UIActivityTypeAssignToContact,
+                                   UIActivityTypeSaveToCameraRoll,
+                                   UIActivityTypeAddToReadingList,
+                                   UIActivityTypePostToFlickr,
+                                   UIActivityTypePostToVimeo];
+    activityViewController.excludedActivityTypes = excludeActivities;
     [self presentViewController:activityViewController animated:YES completion:^{
     }];
 }

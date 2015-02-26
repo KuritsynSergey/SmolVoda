@@ -9,6 +9,7 @@
 #import "ConfirmViewController.h"
 #import "Keys.h"
 #import "MainLogic.h"
+#import "BSKeyboardControls.h"
 
 @interface ConfirmViewController () {
     BOOL elevator;
@@ -19,9 +20,11 @@
 
 @property (strong, nonatomic) NSDate *deliveryDate;
 @property (strong, nonatomic) NSDateFormatter *dateFormatter;
-@property (strong, nonatomic) UIBarButtonItem *doneButton;
+//@property (strong, nonatomic) UIBarButtonItem *doneButton;
 
 @property (nonatomic, strong) MBProgressHUD *HUD;
+
+@property (nonatomic, strong) BSKeyboardControls *keyboardControls;
 
 @end
 
@@ -41,9 +44,16 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     
+    NSArray *fields = @[ self.streetTextField, self.houseTextField,
+                         self.porchTextField, self.floorTextField,
+                         self.flatTextField, self.dateTextField,
+                         self.timeTextField];
+    
+    [self setKeyboardControls:[[BSKeyboardControls alloc] initWithFields:fields]];
+    [self.keyboardControls setDelegate:self];
+    
     _backgroundImageView.image = [UIImage imageNamed:@"ConfirmBackground.png"];
     _centralScrollView.contentSize = _centralScrollView.frame.size;
-    _centralScrollView.backgroundColor = [UIColor redColor];
     if ([UIScreen mainScreen].bounds.size.height > 480) {
         CGRect frame = _centralScrollView.frame;
         frame.size.height += 70;
@@ -98,6 +108,7 @@
     
     // create a done view + done button, attach to it a doneClicked action, and place it in a toolbar as an accessory input view...
     // Prepare done button
+    /*
     UIToolbar *keyboardDoneButtonView = [[UIToolbar alloc] init];
     keyboardDoneButtonView.backgroundColor = [UIColor colorWithWhite:1.0 alpha:1.0];
 //    keyboardDoneButtonView.alpha = 0.1f;
@@ -120,7 +131,8 @@
     
     // Plug the keyboardDoneButtonView into the text field...
     _timeTextField.inputAccessoryView = keyboardDoneButtonView;
-    
+    */
+     
     UITapGestureRecognizer *tgr = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(backgroundTapped:)];
     self.backgroundImageView.userInteractionEnabled = YES;
     self.view.userInteractionEnabled = YES;
@@ -389,6 +401,21 @@
         default:
             break;
     }
+}
+
+#pragma mark - Text Field Delegate
+
+- (void)textFieldDidBeginEditing:(UITextField *)textField
+{
+    [self.keyboardControls setActiveField:textField];
+}
+
+#pragma mark - Keyboard Controls Delegate
+
+- (void)keyboardControlsDonePressed:(BSKeyboardControls *)keyboardControls
+{
+    [self.view endEditing:YES];
+    [self updateTextFields];
 }
 
 #pragma mark - IBActions

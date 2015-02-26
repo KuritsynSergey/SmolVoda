@@ -34,10 +34,10 @@
 - (NSDictionary*)parsePrice {
     @autoreleasepool {
         PriceXMLParser *priceParserDelegate = [[PriceXMLParser alloc] init];
-//        NSURL *url = [NSURL URLWithString:@"http://www.smolvoda.ru/Price.xml"];
-//        NSXMLParser *priceParser = [[NSXMLParser alloc] initWithContentsOfURL:url];
-        NSString *path = [[NSBundle mainBundle] pathForResource:@"Price" ofType:@"xml"];
-        NSXMLParser *priceParser = [[NSXMLParser alloc] initWithData:[NSData dataWithContentsOfFile:path]];
+        NSURL *url = [NSURL URLWithString:@"http://www.smolvoda.ru/Price.xml"];
+        NSXMLParser *priceParser = [[NSXMLParser alloc] initWithContentsOfURL:url];
+//        NSString *path = [[NSBundle mainBundle] pathForResource:@"Price" ofType:@"xml"];
+//        NSXMLParser *priceParser = [[NSXMLParser alloc] initWithData:[NSData dataWithContentsOfFile:path]];
         priceParser.delegate = priceParserDelegate;
         NSMutableDictionary *dict = [[NSMutableDictionary alloc] init];
         if ([priceParser parse]) {
@@ -57,8 +57,10 @@
 - (NSArray*)parseSellPoints {
     @autoreleasepool {
         SellPointsXMLParser *sellPointsParserDelegate = [[SellPointsXMLParser alloc] init];
-        NSString *path = [[NSBundle mainBundle] pathForResource:@"SellPoints" ofType:@"xml"];
-        NSXMLParser *sellPointsParser = [[NSXMLParser alloc] initWithData:[NSData dataWithContentsOfFile:path]];
+        NSURL *url = [NSURL URLWithString:@"http://www.smolvoda.ru/SellPoints.xml"];
+        NSXMLParser *sellPointsParser = [[NSXMLParser alloc] initWithContentsOfURL:url];
+//        NSString *path = [[NSBundle mainBundle] pathForResource:@"SellPoints" ofType:@"xml"];
+//        NSXMLParser *sellPointsParser = [[NSXMLParser alloc] initWithData:[NSData dataWithContentsOfFile:path]];
         sellPointsParser.delegate = sellPointsParserDelegate;
         if ([sellPointsParser parse])
             return [NSArray arrayWithArray:sellPointsParserDelegate.outputArray];
@@ -70,8 +72,10 @@
 - (NSDictionary*)parseAd {
     @autoreleasepool {
         AdXMLParser *adXMLParserDelegate = [[AdXMLParser alloc] init];
-        NSString *path = [[NSBundle mainBundle] pathForResource:@"Coolers" ofType:@"xml"];
-        NSXMLParser *adParser = [[NSXMLParser alloc] initWithData:[NSData dataWithContentsOfFile:path]];
+        NSURL *url = [NSURL URLWithString:@"http://www.smolvoda.ru/Coolers.xml"];
+        NSXMLParser *adParser = [[NSXMLParser alloc] initWithContentsOfURL:url];
+//        NSString *path = [[NSBundle mainBundle] pathForResource:@"Coolers" ofType:@"xml"];
+//        NSXMLParser *adParser = [[NSXMLParser alloc] initWithData:[NSData dataWithContentsOfFile:path]];
         adParser.delegate = adXMLParserDelegate;
         if ([adParser parse])
             return [NSDictionary dictionaryWithDictionary:adXMLParserDelegate.outputDictionary];
